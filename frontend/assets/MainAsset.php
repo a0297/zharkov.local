@@ -21,6 +21,18 @@ class MainAsset extends AssetBundle
     public $css = [
         'stylesheets\responsive.css',
         'stylesheets\style.css',
+
+           //стили сайта
+        'stylesheets\skins\blue.css',
+        'stylesheets\skins\green.css',
+        'stylesheets\skins\khaki.css',
+        'stylesheets\skins\lilac.css',
+        'stylesheets\skins\orange.css',
+        'stylesheets\skins\pink.css',
+        'stylesheets\skins\red.css',
+        'stylesheets\skins\teal.css',
+        'stylesheets\skins\yellow.css',
+
     ];
     public $js = [
         'javascripts\app.js',

@@ -62,7 +62,7 @@
             <ul id="main-menu" class="nav-bar sf-menu">
 
                 <li>
-                    <a href="#">Автошколы</a>
+                    <a href="http://zharkov.local/frontend/web/avtoshkoly">Автошколы</a>
                     <ul>
                         <li><a href="portofolio4.html">Все автошколы</a></li>
                         <li><a href="portofolio2.html">Топ автошкол</a></li>
@@ -203,6 +203,7 @@
 </div>
 <div class="minipause">
 </div>
+<?= $content ?>
 <!-- SUBHEADER
 ================================================== -->
 <div id="subheader">
@@ -221,9 +222,12 @@
         <ul class="ca-menu">
             <li>
                 <a href="#">
-                    <span class="ca-icon"><i class="fa fa-heart"></i></span>
+
+                    <img src="images\img\DSC00202 — копия.JPG">
                     <div class="ca-content">
+
                         <h2 class="ca-main">Responsive<br/> Design</h2>
+
                         <h3 class="ca-sub">Across all major devices</h3>
                     </div>
                 </a>

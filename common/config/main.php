@@ -9,12 +9,10 @@ return [
             'class'   => 'yii\web\UrlManager',
             'enablePrettyUrl' => true,    #хотим использовать ЧПУ
             'showScriptName' => false,   #скрываем index.php
+            'rules' => [
+            ],
         ],
     ],
 
-    'modules' => [
-        'main' => [
-            'class' => 'app\modules\main\Module',
-        ],
-    ],
+
 ];

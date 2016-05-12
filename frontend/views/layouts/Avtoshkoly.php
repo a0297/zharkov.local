@@ -12,7 +12,6 @@ use common\widgets\Alert;
 
 MainAsset::register($this);
 ?>
-<?php $this->beginPage() ?>
 <!DOCTYPE html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
@@ -22,26 +21,22 @@ MainAsset::register($this);
 <html class="no-js" lang="en">
 <!--<![endif]-->
 <head>
-    <meta charset="<?= Yii::$app->charset ?>">
+    <meta charset="utf-8"/>
     <!-- Set the viewport width to device width for mobile -->
     <meta name="viewport" content="width=device-width"/>
-    <title>Автошколы города</title>
+    <title>Все автошколы Киева</title>
     <!-- CSS Files-->
     <link rel="stylesheet" href="stylesheets/style.css">
 
-    <link rel="stylesheet" href="stylesheets/skins/green.css">
+    <link rel="stylesheet" href="stylesheets/skins/yellow.css">
     <!-- skin color -->
     <link rel="stylesheet" href="stylesheets/responsive.css">
     <!-- IE Fix for HTML5 Tags -->
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
-    <?php $this->head() ?>
 </head>
 <body>
-
 <!-- HIDDEN PANEL
 ================================================== -->
 <div id="panel">
@@ -122,8 +117,6 @@ MainAsset::register($this);
 
 
 <?= $content ?>
-
-
 <!-- FOOOTER
 ================================================== -->
 <div id="footer">
@@ -170,9 +163,6 @@ MainAsset::register($this);
 ================================================== -->
 <!-- Javascript files placed here for faster loading -->
 <script src="javascripts/foundation.min.js"></script>
-<script src="javascripts/jquery.easing.1.3.js"></script>
-<script src="javascripts/elasticslideshow.js"></script>
-<script src="javascripts/jquery.carouFredSel-6.0.5-packed.js"></script>
 <script src="javascripts/jquery.cycle.js"></script>
 <script src="javascripts/app.js"></script>
 <script src="javascripts/modernizr.foundation.js"></script>
@@ -181,7 +171,11 @@ MainAsset::register($this);
 <script src="javascripts/hoverIntent.js"></script>
 <script src="javascripts/superfish.js"></script>
 <script src="javascripts/responsivemenu.js"></script>
+<script src="javascripts/jquery.tweet.js"></script>
+
+<script src="javascripts/jquery.isotope.min.js"></script>
+<script src="javascripts/jquery.prettyPhoto.js"></script>
+<script src="javascripts/custom.js"></script>
 
 </body>
 </html>
-<?php $this->endPage() ?>
